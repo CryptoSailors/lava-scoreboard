@@ -1,0 +1,29 @@
+{
+  "name": "lava-scoreboard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "collector": "node dist/collector.js",
+    "dev:server": "ts-node src/server.ts",
+    "dev:collector": "ts-node src/collector.ts",
+    "dev:polli-analyze": "ts-node src/polliAnalyze.ts"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.9",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.30",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
+
+

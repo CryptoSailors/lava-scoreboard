@@ -1,0 +1,13 @@
+.env
+data/
+dist/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+
+# посилено 2026-08-19 перед публікацією репо:
+.env.*
+*.bak
+*.bak-*
